@@ -23,3 +23,5 @@ for path in args.input_paths:
 # write the output path
 with open(args.output_path,'w') as f:
     f.write(json.dumps(total))
+
+# note to self: input path for lang, country separately
