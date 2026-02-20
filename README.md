@@ -22,15 +22,15 @@ First, a list of hashtags related to Covid-19 was created, most in English with 
 - #nurse
 - #doctor
 
-From the tweets, all tweets containing these hashtags were extracted. Then for each day in 2020, two files were created. One file counted how many tweets from each country contained a certain hashtag, and the other file counted how many tweets in each language contained a certain hashtag.
+All tweets containing these hashtags were extracted. Then for each day in 2020, two files were created. One file counted how many tweets from each country contained a certain hashtag, and the other file counted how many tweets in each language contained a certain hashtag.
 
-First, another pair of files were created summing these counts for country and language across all of 2020. Then the top 10 countries/languages were plotted with 'matplotlib' for '#coronavirus'.
+First, another pair of files were created summing these counts for country and language across all of 2020. Then the top 10 countries/languages were plotted with `matplotlib` for `#coronavirus`.
 
 <img src=img/country_corona.png width=100% />
 
 <img src=img/lang_corona.png width=100% />
 
-Then, the same was plotted for '#코로나바이러스'.
+Then, the same was plotted for `#코로나바이러스`.
 
 <img src=img/country_kr.png width=100% />
 
